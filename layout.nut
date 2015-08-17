@@ -45,23 +45,23 @@ local mask = fe.add_image( "mask.png", 0, 0, flw, flx );
 // Image shadow/outline thickness
 local offset = 4;
 
-//Image of lynx overlay guide with green for help positioning the artwork
+//Image of overlay guide with green for help positioning the artwork
 //fe.add_image( "overlay_guide.png", 0, 0, flw, flh );
 
 
 //box art
 local box = fe.add_artwork( "flyer", flx*0.05, fly*0.65, 300, 300 );
 
-//box art
+//cart art
 local box = fe.add_artwork( "cart", flx*0.23, fly*0.72, 150, 150 );
 
 //video
-local snap = fe.add_artwork( "snap", flx*0.049, fly*0.217, 160*4.1, 102*3.74 );
-snap.pinch_x = -10;
-snap.pinch_y = 13;
-snap.skew_x = 110;
-snap.skew_y = 15;
-snap.rotation = -12.6;
+local snap = fe.add_artwork( "snap", flx*0.157, fly*0.181, 160*1.87, 144*1.87 );
+snap.pinch_x = 0;
+snap.pinch_y = 0;
+snap.skew_x = 0;
+snap.skew_y = -5;
+snap.rotation = -5;
 snap.preserve_aspect_ratio = false;
 //helps with placement
 //snap.alpha = 200;
@@ -76,7 +76,7 @@ else
    overlay = "screen_overlay.png";
 }
 
-//Image of lynx overlay
+//Image of overlay
 fe.add_image( overlay, 0, 0, flw, flh );
 
 //wheel settings
