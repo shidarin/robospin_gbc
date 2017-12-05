@@ -251,4 +251,3 @@ function fancy_transitions( ttype, var, ttime ) {
  }
  return false;
 }
-
