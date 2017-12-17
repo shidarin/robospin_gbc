@@ -4,7 +4,7 @@ Robospin GBC
 
 - **Author/Maintainer:** Sean Wallitsch
 - **Email:** shidarin@alphamatte.com
-- **License:** MIT, CC-BY-NC-SA
+- **License:** MIT, CC-BY
 - **Status:** Development
 - **Version:** 1.0
 - **GitHub:** https://github.com/shidarin/robospin_gbc
@@ -12,7 +12,8 @@ Robospin GBC
 Introduction
 ------------
 
-A robospin fork customized for Nintendo Game Boy and Game Boy Color games.
+[Attract-Mode](http://attractmode.org/about.html) emulator layout based on the
+classic robospin theme. Customized for Nintendo Game Boy and Game Boy Color games.
 Classic wheel design showcases snaps or videos in the Game Boy Color's screen,
 as well as showing flyer and cart art.
 
@@ -99,8 +100,8 @@ License
     Distributed under a CC-BY License on August 15th, 2015.
 	Modifications have been made.
 
-    Images present in this package are distributed under a CC-BY-NC-SA license
+    Images present in this package are distributed under a CC-BY license
     Note that this is a more restrictive license than the MIT license, and only
     applies to the images.
-    http://creativecommons.org/licenses/by-nc-sa/4.0/
-    http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+    http://creativecommons.org/licenses/by/4.0/
+    http://creativecommons.org/licenses/by/4.0/legalcode
